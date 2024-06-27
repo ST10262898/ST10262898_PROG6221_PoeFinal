@@ -1,0 +1,14 @@
+﻿<Window x:Class="ST10262898_PROG6221_PoeFinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10262898_PROG6221_PoeFinal"
+        mc:Ignorable="d"
+        Title="ST10262898 POE" Height="450" Width="800">
+    <Grid>
+        <Button Content="START" HorizontalAlignment="Center" Height="60" Margin="0,287,0,0" VerticalAlignment="Top" Width="156" FontSize="15" Click="StartButton_Click"/>
+        <TextBox HorizontalAlignment="Center" Height="66" Margin="0,113,0,0" TextWrapping="Wrap" Text="Welcome to the Recipe Book" VerticalAlignment="Top" Width="518" FontSize="40"/>
+        <TextBox HorizontalAlignment="Center" Height="31" Margin="0,217,0,0" TextWrapping="Wrap" Text="click the start button to begin inputting recipes" VerticalAlignment="Top" Width="422" FontSize="20"/>
+    </Grid>
+</Window>
